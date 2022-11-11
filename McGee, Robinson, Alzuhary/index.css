@@ -1,0 +1,112 @@
+
+.header {
+  background-color: #FBEEC1;
+  color: #000000;
+  top: 0 auto;
+  width: 100%;
+  margin: 0 auto;
+}
+.sticky {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+.toplist {
+  display: table;
+  list-style-type: none;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.litop {
+  float: left;
+  font-family: 'Work Sans', sans-serif;
+}
+.alitop {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #d3c8a1;
+}
+.background{
+    background: #FAF9F6;
+}
+.bottle {
+    width:39%;
+    z-index: 1; 
+    position: relative; 
+    display: table; 
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+    font-size: 17pc;
+    font-family: 'Koulen', cursive;
+}
+.reviews {
+    width: 100%;
+    background: #FAF9F6;
+    padding-top: 6px;
+}
+.reviewlist {
+    display: table;
+    list-style-type: none;
+    margin: 0 auto;
+    overflow: scroll;
+}
+.reviewimg {
+    position: relative;
+    width: 20%; 
+    object-fit: cover;
+    background-color: #FAF9F6;
+    padding: 2.5%;
+}
+.row {
+  padding-top: 5px;
+  display: flex;
+  overflow: scroll;
+}
+.column {
+  flex: 25%;
+  padding: 5px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+.title2{
+    text-align: center;
+    font-size: 12pc;
+    font-family: 'Koulen', cursive;
+}
