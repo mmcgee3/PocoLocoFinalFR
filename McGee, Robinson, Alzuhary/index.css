@@ -29,7 +29,7 @@
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 14px;
   text-decoration: none;
 }
 li a:hover {
@@ -107,6 +107,6 @@ li a:hover {
 }
 .title2{
     text-align: center;
-    font-size: 12pc;
+    font-size: 10vw;
     font-family: 'Koulen', cursive;
 }
